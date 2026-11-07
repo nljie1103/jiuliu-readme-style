@@ -1,17 +1,17 @@
 ---
 name: jiuliu-readme-style
 description: >-
-  中文优先的 GitHub README 创建、审查、美化与持续维护 Skill。以
-  nljie1103/JIE-Clipboard 的排版为视觉母版，提供可组合的 README 组件库、
+  中文优先的 GitHub README 创建、审查、美化与持续维护 Skill。以本仓库
+  README 的 47 个组件展示为排版参考，提供独立可组合的 README 组件库、
   MUST/CONDITIONAL/OPTIONAL/FORBIDDEN 四级规范，并按 GUI、CLI、Web、
   SDK、学习项目的真实内容选择章节。适用于 README 重构、功能介绍、
   项目结构、技术栈、数据存储、部署、接口、安全、徽章与双语文档任务。
 ---
 
-# Jiuliu README Style · JRS v0.0.2
+# Jiuliu README Style · JRS v0.0.3
 
 > **定位：** 中文优先、模块丰富、按需组合的 GitHub README 设计 Skill。  
-> **视觉母版：** https://github.com/nljie1103/JIE-Clipboard/blob/main/README.md  
+> **排版与组件示例：** https://github.com/nljie1103/jiuliu-readme-style#component-gallery  
 > **项目仓库：** https://github.com/nljie1103/jiuliu-readme-style
 
 ## 一、目标与原则
@@ -184,6 +184,8 @@ description: >-
 
 ### 视觉基准
 
+- **独立设计基准：** 仅以本仓库的 [README 完整组件展厅](https://github.com/nljie1103/jiuliu-readme-style#component-gallery) 作为本 Skill 的示例参考；无需查找任何其他仓库的风格来源。参考其标题、功能表、技术栈表、数据存储表、目录树、代码块、Mermaid、折叠区和安全提示的呈现方式。
+- **保持自包含：** 访问不到线上 README 时，仍根据本文件的组件等级、展示规则和项目事实完成任务；不能把网络访问当成执行前提。
 - Hero 使用 `<div align="center">`；正文左对齐；全文只有一个 `#` 标题。
 - 主章节使用 `## Emoji 中文标题`，子章节使用 `###`；主要章节之间用 `---`，不要连续重复分隔线。
 - 文案准确、精炼，段落适中；不滥用 Emoji、全粗体、巨幅封面、复杂 HTML/CSS、外链字体。
@@ -207,14 +209,12 @@ description: >-
 | 📦 SDK / 开源库 | 安装、最小示例、API、依赖、兼容范围、构建测试 | 示例真实有效、版本限制、许可 |
 | 📚 学习 / 衍生项目 | 目标、来源、修改范围、结构、技术栈、构建与示例 | 上游版权、范围说明、非官方关系 |
 
-### 6.2 四个参考仓库的编辑侧重点
+### 6.2 本仓库 README 的参考方式
 
-- **JIE-Clipboard：** 视觉母版；适合功能表、真实 GUI 预览、快捷键、技术栈、项目结构和数据说明。
-- **appdown：** 用户价值与部署入口优先；技术实现、数据存储、服务配置和升级风险按真实代码展开。
-- **cloud-agent-cleaner：** 清理范围、提权风险、命令参数和恢复方式优先，避免为展示组件而拉长文档。
-- **genp-cn：** 学习用途、上游、改动范围、构建与授权边界清晰可见。
-
-以上只是编辑方向；每次使用都必须重新读取仓库，不得把其他项目的能力当成事实。
+1. **规则看 `SKILL.md`：** 以本文件的四级分级、组件库、事实核查和安全规则决定内容，不把案例示范当成项目事实。
+2. **排版看本项目 README：** 可访问时查阅 [47 个组件的完整展示厅](https://github.com/nljie1103/jiuliu-readme-style#component-gallery)，学习不同区域的标题、表格、代码、目录树、流程图和折叠示例。
+3. **按项目事实重新组织：** 组件示范只提供结构与呈现方式，不能复制其虚构技术值、演示命令、占位符或存储路径。
+4. **无需外部母版：** 以 JRS 自己的规范和展示厅作为唯一风格基准；单文件安装与离线运行仍然受支持。
 
 ## 七、语言与本仓库版本约定
 

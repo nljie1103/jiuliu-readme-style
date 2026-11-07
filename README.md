@@ -4,10 +4,10 @@
 
 **让每一份 README，都成为项目的第一张名片。**
 
-从 [JIE-Clipboard](https://github.com/nljie1103/JIE-Clipboard) 的文档设计出发，  
-用统一的视觉语言与灵活的组件系统，写出**中文优先、结构精致、内容可信**的 GitHub 项目首页。
+以独立的组件设计规范与灵活的组合系统，  
+打造**中文优先、结构精致、内容可信**的 GitHub 项目首页。
 
-[![Version](https://img.shields.io/badge/JRS-v0.0.2-7356d8?style=for-the-badge)](SKILL.md)
+[![Version](https://img.shields.io/badge/JRS-v0.0.3-7356d8?style=for-the-badge)](SKILL.md)
 [![Stars](https://img.shields.io/github/stars/nljie1103/jiuliu-readme-style?style=for-the-badge&logo=github&color=f4c542)](https://github.com/nljie1103/jiuliu-readme-style/stargazers)
 [![Forks](https://img.shields.io/github/forks/nljie1103/jiuliu-readme-style?style=for-the-badge&logo=github&color=4493f8)](https://github.com/nljie1103/jiuliu-readme-style/forks)
 
@@ -21,7 +21,7 @@
 
 README 是访问者认识开源项目的第一站。它既要让普通用户快速上手，也要让开发者看懂工程结构，还要让部署者知道数据保存在哪里、有哪些安全限制。
 
-**Jiuliu README Style（JRS）** 是一份可以交给 AI 编程助手执行的单文件 Skill：以 JIE-Clipboard 的页面美学为基准，先理解真实项目，再从组件库中**选择、组合、排版**合适的区域，而不是把固定模板逐项填满。
+**Jiuliu README Style（JRS）** 是一套独立的 README 设计规范与单文件 AI Skill。先理解真实项目，再从组件库中**选择、组合、排版**合适的区域。本页的 [47 个完整组件示例](#component-gallery) 就是 JRS 自身的视觉与排版参考，无需借助其他仓库作为模板。
 
 > **设计原则：** 统一的是视觉与质量，不是把每个项目写成相同长度、相同章节的说明书。
 
@@ -57,7 +57,7 @@ README 是访问者认识开源项目的第一站。它既要让普通用户快�
 
 ## 🧩 丰富的 README 组件库
 
-JRS v0.0.2 内置 **47 个候选模块**，分为六组。它们是可使用的积木，而不是每个 README 的必填清单。
+JRS v0.0.3 内置 **47 个候选模块**，分为六组。它们是可使用的积木，而不是每个 README 的必填清单。
 
 | 组件类别 | 典型区域 | 组合思路 |
 |:---|:---|:---|
@@ -162,7 +162,7 @@ $jiuliu-readme-style
 
 这枚徽章展示的是**本仓库真实的 Skill 版本**，其他项目应替换为其自身真实信息：
 
-[![JRS v0.0.2](https://img.shields.io/badge/JRS-v0.0.2-7356d8?style=for-the-badge)](SKILL.md)
+[![JRS v0.0.3](https://img.shields.io/badge/JRS-v0.0.3-7356d8?style=for-the-badge)](SKILL.md)
 
 统一使用 `style=for-the-badge`，不要编造 CI、发行版或许可证状态。
 
@@ -199,7 +199,7 @@ $jiuliu-readme-style
 
 #### 2.1 📖 项目概述 `[OPTIONAL]`
 
-**本仓库的真实概述：** JRS 将 JIE-Clipboard 的 README 排版美学提炼为可复用的 AI Skill，按项目真实内容选择展示区域，而不是复制固定模板。
+**本仓库的真实概述：** JRS 提供独立、可复用的 README 设计规则和 47 个组件实例，AI 可以根据项目事实选择展示区域，并以本页为唯一内置展示参考，而不是复制固定模板。
 
 #### 2.2 ✨ 功能特性 `[MUST · 信息]`
 
@@ -583,7 +583,7 @@ A：因为组件库是选择池。真实项目应只显示有证据且能帮助�
 
 | 阶段（演示示例） | 状态 |
 |:---|:---|
-| 完成组件清单 | 已完成：JRS v0.0.2 |
+| 完成组件清单 | 已完成：JRS v0.0.3 |
 | 后续新增模板样式 | **示例规划，未承诺发布** |
 
 只展示维护者确实已确认的计划，未完成事项必须写明。
@@ -592,10 +592,11 @@ A：因为组件库是选择池。真实项目应只显示有证据且能帮助�
 
 | 版本 | 主要变更 |
 |:---|:---|
-| **v0.0.2** | 四级规则、47 项模块库和动态组合流程 |
+| **v0.0.3** | 建立独立的风格参考体系，明确以本仓库 README 为组件示例来源 |
+| v0.0.2 | 四级规则、47 项模块库和动态组合流程 |
 | v0.0.1 | 首次发布 Jiuliu README Style |
 
-本次扩充 README 演示未改变 Skill 规则，因此**不单独增加 Skill 版本号**。
+**版本规则：** 只有 Skill 规范发生实质变化才递增版本号；README 纯展示调整不单独升级。
 
 #### 6.5 🤝 参与贡献 `[OPTIONAL]`
 
@@ -611,8 +612,8 @@ A：因为组件库是选择池。真实项目应只显示有证据且能帮助�
 
 #### 6.7 🙏 致谢与来源 `[CONDITIONAL / OPTIONAL]`
 
-- **视觉母版：** [JIE-Clipboard](https://github.com/nljie1103/JIE-Clipboard)
-- **项目维护者：** [nljie1103](https://github.com/nljie1103)
+- **本项目维护者：** [nljie1103](https://github.com/nljie1103)
+- **本 Skill 的组件示例：** [README 完整展示厅](#component-gallery)
 
 如果属于衍生、汉化或移植项目，应清楚注明上游关系与原始授权边界。
 
@@ -669,8 +670,9 @@ jiuliu-readme-style/
 
 | 版本 | 内容 |
 |:---|:---|
-| **v0.0.2** | 新增四级组件规范、47 个模块的组件库、展示形式规则与动态组合流程 |
-| v0.0.1 | 首次发布 JIE-Clipboard 风格的 README Skill |
+| **v0.0.3** | 移除外部风格依赖，以本仓库的 README 组件展厅作为参考基准 |
+| v0.0.2 | 新增四级组件规范、47 个模块的组件库、展示形式规则与动态组合流程 |
+| v0.0.1 | 首次发布 Jiuliu README Style Skill |
 
 版本号仅随 **Skill 规范的实质更新**递增；发布脚本或上传流程的修复不构成新版本。
 
@@ -678,16 +680,16 @@ jiuliu-readme-style/
 
 ## 🌍 English · At a Glance
 
-**Jiuliu README Style (JRS)** is a Chinese-first, modular README design skill inspired by [JIE-Clipboard](https://github.com/nljie1103/JIE-Clipboard). Its component library and four-level rules help AI coding assistants build readable, accurate GitHub project pages tailored to each repository—not copy a fixed template.
+**Jiuliu README Style (JRS)** is an independent, Chinese-first README design skill. Its 47-component gallery in this README serves as the project's own layout reference, while the self-contained SKILL.md defines how AI coding assistants select modules, verify facts, and build clear GitHub project pages.
 
 The repository contains only this showcase `README.md` and the [complete `SKILL.md`](SKILL.md).
 
 ---
 
-## 🙏 灵感与致谢
+## 👤 项目维护
 
-- **视觉原点：** [JIE-Clipboard](https://github.com/nljie1103/JIE-Clipboard)
-- **项目维护：** [nljie1103](https://github.com/nljie1103)
+- **维护者：** [nljie1103](https://github.com/nljie1103)
+- **展示参考：** 本仓库 [47 个组件的完整展示厅](#component-gallery)
 
 > **授权说明：** 本仓库目前未声明开源许可证。可公开阅读不等于自动获得复制、修改或再分发的许可；是否开放这些权限应由维护者明确决定。
 
